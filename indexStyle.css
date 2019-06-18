@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+.grid{
+	transition: 0.5s;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	padding-left: 80px;
+	font-size: 0;
+}
+
+.grid_item{
+	transition: 0.5s;
+	font-size: 1.25rem;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 100%;
+}
+
+.DBQuery {
+	background-color: #FFA71A;
+	border: none;
+	color: BLACK;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.grid1{
+	max-width: 330px;
+	transition: 0.5s;
+}
+
+.grid2{
+	max-width: 440px;
+	transition: 0.5s;
+}
+
+.grid4{
+	max-width: 880px;
+	transition: 0.5s;
+}
+
+p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.logo{
+	background:#FFA71A;
+	text-align: center;
+	padding: 50 0 50 0;
+	margin: 0 0 10 0;
+}
+
+body{
+	background: #F0EAD6;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+	text-font: arial;
+}
+
+.previewScreenshot, .triGifContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	border-radius: 20px;
+	box-shadow: 0 0 0 3pt #FFA71A;
+	-moz-border-radius:20px;
+	 -webkit-border-radius: 20px;
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+video {
+	object-fit: fill;
+}
+
+.previewGif{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	border-radius: 25px;
+	-moz-border-radius:25px;
+	 -webkit-border-radius: 25px;
+}
+
+h2{
+	border-bottom: 1px solid #404040;
+	margin-top: 20;
+	text-align: center;
+	font-size: 120%;
+	color: #404040;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+h3{
+	margin-top: 20;
+	text-align: center;
+	font-size: 120%;
+	color: #404040;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.description{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 90%;
+	color: #a4a4a4;
+}
+
+.navBar{
+  transition: 0.5s;
+	overflow-x: hidden;
+	background-color:FFA71A;
+	padding: 10 0 10 0;
+	text-align: center;
+  position: fixed;
+	width: 60px;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+}
+
+.icons_64{
+	margin: 0;
+	position: fixed;
+	top: 50%;
+	-ms-transform: translateY(-60%);
+	transform: translateY(-60%);
+}
+
+.underlined:hover{
+	text-decoration: underline;
+}
+
+.fullDescription{
+	margin-top: 15;
+	padding-right: 25;
+}
+
+.DBContainer{
+	display: inline-block;
+	border: 2px solid #404040;
+	padding: 5%;
+	margin: 5%;
+	border-radius: 10px;
+
+}
+
+.pInput{
+	display: inline-block;
+	width: 275px;
+	height: 30px;
+}
+
+.pdf{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.dbMember{
+	margin: 50px, 0, 0, 0;
+	text-align: center;
+	border-right: 1px solid #404040;
+	border-bottom: 1px solid #404040;
+	border-left: 1px solid #404040;
+	border-top: 1px solid #404040;
+}
+
+.dbEntry{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.icon{
+
+	padding-left: 10px;
+	margin-top: 50%;
+	width: fill;
+}
+
+.iconText{
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 5px;
+	float: right;
+	visibility: hidden;
+}
+
+
+
+#homeIcon{
+	padding: 0px;
+	margin-left: -25px;
+}
+
+#homeText{
+	padding: 0px;
+	margin-left: -10px;
+	padding-right: 5px;
+}
+
+#githubIcon{
+	padding: 0px;
+}
+
+
+
+#contactIcon{
+	padding: 0px;
+	margin-left: 2px;
+}

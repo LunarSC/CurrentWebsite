@@ -1,0 +1,109 @@
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name"viewport" content="width=device-width, initial-scale=1.0">
+		<title> Thomas Pedraza </title>
+		<link rel="stylesheet" href="../indexStyle.css">
+	</head>
+	<body>
+		<!-- Banner at the top-->
+		<div class="header">
+			<div class="navBar" onmouseover="openNav()" onmouseout="closeNav()">
+				<nav class="bar">
+					<div class="icons_64">
+						<a class="iconLink" href="http://www.tompedraza.com">
+							<div class="icon" id="homeIcon">
+								<img id="homeImg" src="../img/icons/homeIcon.png" alt width="32" height="32"></img>
+								<div class="iconText" id="homeText">Home</div>
+							</div>
+						</a>
+						<a class="iconLink" href="http://tompedraza.com/descriptions/About.html">
+							<div class="icon" id="resumeIcon">
+								<img id="resumeImg" src="../img/icons/resumeIcon.png" alt width="32" height="32"></img>
+								<div class="iconText" id="resumeText">Resume</div>
+							</div>
+						</a>
+						<a class="iconLink" href="mailto:LunarSC95@gmail.com">
+							<div class="icon" id="contactIcon">
+								<img id="contactIcon" src="../img/icons/contactIcon.png" alt width="32" height="32"></img>
+								<div class="iconText" id="contactText">Contact</div>
+							</div>
+						</a>
+						<a class="iconLink" href="https://www.linkedin.com/in/tom-pedraza-349554148/">
+							<div class="icon" id="linkedInIcon">
+								<img id="linkedInImg" src="../img/icons/linkdInIcon.png" alt width="32" height="32"></img>
+								<div class="iconText" id="linkedInText">LinkedIn</div>
+							</div>
+						</a>
+						<a class="iconLink" href="https://www.github.com/LunarSC/">
+							<div class="icon" id="githubIcon">
+								<img id="githubImg" src="../img/icons/githubIcon.png" alt width="32" height="32"></img>
+								<div class="iconText" id="linkedInText">GitHub</div>
+							</div>
+						</a>
+					</div>
+				</nav>
+			</div>
+			<div class="logo">
+				<div class="grid--center">
+					<div class="pageBanner">
+
+						<h1>Tom Pedraza</h1>
+
+						<span class="bannerSubTitle">Software Developer</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="grid" style="margin-left: 0px;">
+			<div class="grid4 grid_item">
+				<div class="desc">
+					<h2> Network Simulator </h2>
+					<p class="fullDescription">
+						In my studies of wired networks, I created a program using Java and JavaFX. The programs are split up into 3 sections. Each section adds new advanced and important features to the network.
+						In the most recent section is the entire network simulator, including the Dijkstras routing algorithm, full CRC and ARQ features, and network layer header implementations.
+					</p>
+					<p class="fullDescription">
+						Below is a demonstration of the dynamic path of the circles, which represent packets of data being transmitted by the network. The red and blue numbers on the wires, that
+						connect the routers, represent the time in seconds that it takes for the respective packet to travel to the next router. The path of the circles to routers are determined by
+						a custom implementation of Dijkstras algorithm.
+						The lines at the bottom of the window represent digital and analog electrical signals. These are transmitted via the physical layer in the network.
+						At the end of the gif a purple packet is sent to the initial computer, this packet represents the message received signal. Nothing about this program is same every run,
+						different text inputs yield different results.
+				</p>
+					<div class="img image--16x12">
+						<video class="previewScreenshot" type="video/mp4" width="800" height="500" autoplay loop muted>
+								<source src="..\img\567Projgif2.mp4">
+								Your browser does not support this video.
+					</div>
+					<div class="img image--16x12">
+						<video class="previewScreenshot" type="video/mp4" width="800" height="500" autoplay loop muted>
+								<source src="..\img\567Projgif3.mp4">
+								Your browser does not support this video.
+					</div>
+					<p class="fullDescription">
+						The project was started during the fall 2017 semester, and with only 3 months to complete it there ended up being over 3000 lines of written code.
+						The program needed to be fast, efficient, and clean. Since I wanted it to be object oriented, and since I wanted to learn JavaFX, I decided JavaFX for the
+						front end interface and Java back end would be the best language for this program. The first and second sections of this program are noticably messy in the code.
+						However, by the third assignment I had gone over my functions to make the animation and processing much more efficient.
+					</p>
+					<br>
+					<div class="githubButton">
+						<a class="github-button" href="https://github.com/LunarSC/Network-Simulator/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download
+																		   LunarSC/Network-Simulator on GitHub">Download</a>
+						<br>
+						<p class ="fullDescription">
+						Click to download this project, then read the readme.txt file.
+						</p>
+						<p class="fullDescription">
+						Feedback on the program from the
+						professor was marked as highly efficient and clean code that met all of the criteria of simulating a network connection
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
+		<script src="../js/main.js"></script>
+	</body>
+</html>
